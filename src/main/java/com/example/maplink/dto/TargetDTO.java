@@ -8,7 +8,7 @@ import java.io.Serializable;
 /**
  * @author Samuel Catalano
  */
-public class ProbabilityDTO implements Serializable {
+public class TargetDTO implements Serializable {
 	
 	@Getter
 	@Setter
