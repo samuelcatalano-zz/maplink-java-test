@@ -8,7 +8,7 @@ import java.io.Serializable;
 /**
  * @author Samuel Catalano
  */
-public class LocationDTO implements Serializable{
+public class LocationDTO implements Serializable {
 	
 	@Getter
 	@Setter
@@ -18,4 +18,17 @@ public class LocationDTO implements Serializable{
 	@Setter
 	private double lng;
 	
+	/**
+	 * Default.
+	 */
+	public LocationDTO(){
+	}
+	
+	/**
+	 * Parameters.
+	 */
+	public LocationDTO(double lat, double lng){
+		this.lat = lat;
+		this.lng = lng;
+	}
 }
